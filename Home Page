@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        
+</head>
+<body style="text-align: center;">
+<header>
+    <h1 style="text-align: center;">Jarrett Miller</h1>
+</header>
+<nav>
+    <a href="home.html" title="Home">Home</a>
+    <a href="index.html" title="Portfolio">Portfolio</a>
+    <a href="about.html" title="About">About</a>
+</nav>
+<p>Hi my name is Jarrett Miller, I am an aspiring web developer, 
+    and this is the start of what I hope is a solid website.
+</p>
+<div>
+    <table align=center>
+        <tr>
+        <th>Best Dogs</th>
+        <th>Why They Are</th>
+        </tr>
+        <tr>
+          <td>All Dogs</td> 
+          <td>Are Great</td> 
+        </tr>
+        <tr>
+        <td>I Just</td>
+    <td>Need To</td>        
+</tr>
+<tr>
+    <td>Create Four</td>
+    <td>Rows</td>
+    <tr>
+        <td>Looks like</td>
+        <td>I Did It</td>
+    </tr>
+</table>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMLwd91QGbEcDEOPQTrhQEcwMgG_M3ul3xw&usqp=CAU">
+<div>
+    <p>But we all know the Cavalier King Charles breed is the best!</p>
+</div>
+<div>
+
+</div>
+<form>
+   
+    <p>Do you agree that the King Charles Spaniel<br>takes the top spot?</p>
+    <input type="radio" id="yes" name="cavy">
+    <label for="yes"><strong>YES</strong></label><br>
+    <input type="radio" id="no" name="cavy">
+    <label for="no"><small>No</small></label><br>
+    
+
+ 
+
+<p>If you'd like to know more specifics about the breed<br>enter your information here:</p>
+<label>Name:</label>
+<input type="text" name="name"><br>
+<label>Email:</label>
+<input type="email" name="email"><br><br>
+<label for="comments">If you selected no please list your favorite below:</label>
+<br>
+<textarea id="comments"
+name="comments"
+cols="50"
+rows="4"
+maxlength="350"></textarea><br>
+<button>Submit</button>
+        
+</form>
+</body>
+</html>
