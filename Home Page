@@ -2,20 +2,22 @@
 <html>
     <head>
         <title>Home</title>
-        
+        <link rel="stylesheet" href="mystyle.css">
 </head>
-<body style="text-align: center;">
+<body>
 <header>
-    <h1 style="text-align: center;">Jarrett Miller</h1>
+    <h1>Jarrett Miller</h1>
 </header>
 <nav>
-    <a href="home.html" title="Home">Home</a>
-    <a href="index.html" title="Portfolio">Portfolio</a>
-    <a href="about.html" title="About">About</a>
+    <ul>
+    <li><a href="home.html" title="Home">Home</a></li>
+    <li><a href="index.html" title="Portfolio">Portfolio</a></li>
+    <li><a href="about.html" title="About">About</a></li></ul>
+    </nav>
 </nav>
+<br>
 <p>Hi my name is Jarrett Miller, I am an aspiring web developer, 
-    and this is the start of what I hope is a solid website.
-</p>
+    and this is a dog themed page till I replace the text with more business appropiate text.</p>
 <div>
     <table align=center>
         <tr>
@@ -38,14 +40,16 @@
         <td>I Did It</td>
     </tr>
 </table>
+<br>
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSMLwd91QGbEcDEOPQTrhQEcwMgG_M3ul3xw&usqp=CAU">
+<br>
 <div>
     <p>But we all know the Cavalier King Charles breed is the best!</p>
 </div>
 <div>
 
 </div>
-<form>
+<form action="action_page.php" formmethod="get">
    
     <p>Do you agree that the King Charles Spaniel<br>takes the top spot?</p>
     <input type="radio" id="yes" name="cavy">
@@ -69,6 +73,16 @@ cols="50"
 rows="4"
 maxlength="350"></textarea><br>
 <button>Submit</button>
+ 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Donec massa sapien faucibus et. Lacus luctus accumsan tortor posuere ac ut consequat. Mauris augue neque gravida in fermentum et sollicitudin ac. Enim diam vulputate ut pharetra sit amet aliquam id. Enim praesent elementum facilisis leo vel fringilla. Enim praesent elementum facilisis leo vel fringilla est ullamcorper eget. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Dignissim convallis aenean et tortor at. Amet nulla facilisi morbi tempus.
+
+    Leo a diam sollicitudin tempor id eu. Ac turpis egestas integer eget aliquet nibh. Pulvinar neque laoreet suspendisse interdum consectetur. Pellentesque elit eget gravida cum sociis natoque penatibus. Id venenatis a condimentum vitae sapien pellentesque habitant. Mi ipsum faucibus vitae aliquet. Mauris a diam maecenas sed enim ut sem viverra. Eu facilisis sed odio morbi. Sit amet commodo nulla facilisi nullam vehicula. Proin nibh nisl condimentum id venenatis a condimentum vitae. Ac turpis egestas integer eget aliquet nibh praesent tristique. Arcu felis bibendum ut tristique et egestas quis ipsum. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper.
+    
+    Lectus urna duis convallis convallis tellus id. Velit scelerisque in dictum non consectetur a erat. Pellentesque elit eget gravida cum. Vel orci porta non pulvinar neque. Habitant morbi tristique senectus et netus. Consequat interdum varius sit amet mattis vulputate. Dolor sit amet consectetur adipiscing elit. Volutpat maecenas volutpat blandit aliquam etiam. Sed sed risus pretium quam vulputate dignissim suspendisse in. Natoque penatibus et magnis dis. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Dictum non consectetur a erat nam at. Felis donec et odio pellentesque diam volutpat commodo. Risus ultricies tristique nulla aliquet enim tortor at. Viverra justo nec ultrices dui sapien eget mi proin sed. Sem et tortor consequat id porta nibh. Netus et malesuada fames ac turpis. Tellus elementum sagittis vitae et leo. Sem fringilla ut morbi tincidunt. Diam quam nulla porttitor massa id neque aliquam vestibulum morbi.
+    
+    Eget mauris pharetra et ultrices neque ornare. Nibh sed pulvinar proin gravida hendrerit lectus. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis. Donec enim diam vulputate ut pharetra sit. Dignissim suspendisse in est ante in nibh mauris cursus. Eget egestas purus viverra accumsan in nisl nisi. Morbi tincidunt augue interdum velit euismod in pellentesque massa. In tellus integer feugiat scelerisque varius. In hendrerit gravida rutrum quisque. Cras ornare arcu dui vivamus arcu felis. Mattis pellentesque id nibh tortor id aliquet lectus proin. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Urna duis convallis convallis tellus id interdum velit laoreet. Purus in massa tempor nec.
+    
+    Ut morbi tincidunt augue interdum velit euismod. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. Adipiscing bibendum est ultricies integer. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Convallis aenean et tortor at. Nisi lacus sed viverra tellus in hac habitasse platea dictumst. Mauris ultrices eros in cursus. Volutpat odio facilisis mauris sit amet massa vitae tortor. Malesuada nunc vel risus commodo viverra maecenas. Ac auctor augue mauris augue neque gravida. Vulputate mi sit amet mauris. Vitae ultricies leo integer malesuada nunc vel. Amet purus gravida quis blandit turpis cursus in. Mattis pellentesque id nibh tortor id aliquet. Laoreet id donec ultrices tincidunt arcu non sodales.</p>
         
 </form>
 </body>
