@@ -9,17 +9,16 @@
 <header>
     <h1>Jarrett Miller</h1>
 </header>
-<nav>
-    <ul>
-    <li><a href="home.html" title="Home">Home</a></li>
-    <li><a href="index.html" title="Portfolio">Portfolio</a></li>
-    <li><a href="about.html" title="About">About</a></li></nav></ul>
+<nav id="navbar">
+    <a href="home.html" title="Home">Home</a>
+    <a href="index.html" title="Portfolio">Portfolio</a>
+    <a href="about.html" title="About">About</a>
     </nav>
-<br><br>
+<br>
 <p>Hi my name is Jarrett Miller, I am an aspiring web developer, 
     and this is a dog themed page till I replace the text with more business appropiate text.</p>
 <div>
-    <table align=center>
+    <table id="tables">
         <tr>
         <th>Best Dogs</th>
         <th>Why They Are</th>
@@ -85,10 +84,23 @@ maxlength="350"></textarea><br>
     Ut morbi tincidunt augue interdum velit euismod. Ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. Adipiscing bibendum est ultricies integer. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Convallis aenean et tortor at. Nisi lacus sed viverra tellus in hac habitasse platea dictumst. Mauris ultrices eros in cursus. Volutpat odio facilisis mauris sit amet massa vitae tortor. Malesuada nunc vel risus commodo viverra maecenas. Ac auctor augue mauris augue neque gravida. Vulputate mi sit amet mauris. Vitae ultricies leo integer malesuada nunc vel. Amet purus gravida quis blandit turpis cursus in. Mattis pellentesque id nibh tortor id aliquet. Laoreet id donec ultrices tincidunt arcu non sodales.</p>
         
 </form>
+
 <script>
-    const name = prompt("What's your name?")
-    alert (`Hi ${name}! thank you for reviewing my resume site.`)
-    </script>
+(function () {
+    const name = prompt ('What’s your name?')
+    const date = new Date ()
+    const day = `${date.getMonth()+1}/${date.getFullYear()}`
+    const hour = date.getHours()
+    let greeting;
+    
+    alert(`Hi ${name}! Thank you for viewing my resume site on ${day}`)
+    }())
+    
+    if(hour>=5 && hour <12) {
+    greeting = 'Good Morning'
+    } else if (hour >= 12 && hour <18) {greeting = 'Good Afternoon'
+    }else {
+    greeting = 'Good Evening'
+    }
 </script>
-</body>
 </html>
